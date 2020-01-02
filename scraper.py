@@ -91,9 +91,8 @@ def extract_url(url):
 
     return url
 
-# Set to check prices every day
-# while True:
-#     print(price_check())
-#     time.sleep(SECONDS_IN_DAY);
+# Currently set to check prices every day 
+while True:
+    price_check()
+    time.sleep(SECONDS_IN_DAY);
 
-price_check()
