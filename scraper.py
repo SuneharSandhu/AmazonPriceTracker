@@ -33,8 +33,7 @@ def price_check():
         if title is not None and price is not None:
             price = price.get_text().strip()
             converted_price = convert_price(price)
-            compare_price = converted_price
-
+            
             details['name'] = title
             details['price'] = price
             details['url'] = _url
