@@ -41,7 +41,7 @@ def price_check():
         else:
             return None
 
-        if converted_price < compare_price:
+        if converted_price < 999:
             send_mail()
 
     print(json.dumps(details, indent=4))
